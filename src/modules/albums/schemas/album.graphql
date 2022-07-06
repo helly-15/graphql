@@ -9,7 +9,7 @@ type Album {
     image: String
 }
 
-type Query {
-    albums (limit: Int, offset: Int):[Album]
-    album(id:ID!): Album
-}
+#type Query {
+#    albums (limit: Int, offset: Int):[Album]
+#    album(id:ID!): Album
+#}

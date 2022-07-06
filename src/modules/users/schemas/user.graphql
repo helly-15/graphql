@@ -5,7 +5,7 @@ type User {
     password: String
     email: String!
 }
-type Query {
-    users(limit: Int, offset: Int):[User]
-    user(id:ID!): User
-}
+#type Query {
+#    users(limit: Int, offset: Int):[User]
+#    user(id:ID!): User
+#}
